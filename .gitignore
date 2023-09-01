@@ -1,3 +1,14 @@
+#This file is the list of what the git repository won't track in whatever directory you are keeping it
+#Note: if a file is already being tracked then it will continue to be tracked even if you add its type/path to this
+#Documentation: https://git-scm.com/docs/gitignore
+#You can define .[fileextenstion name] or /[Directory-path] as something to ignore.
+
+#feel free to add your own ignores here.
+.jom
+
+# Godot 4+ specific ignores
+.godot/
+
 # Godot-specific ignores
 .import/
 export.cfg
@@ -9,3 +20,4 @@ export_presets.cfg
 # Mono-specific ignores
 .mono/
 data_*/
+mono_crash.*.json
